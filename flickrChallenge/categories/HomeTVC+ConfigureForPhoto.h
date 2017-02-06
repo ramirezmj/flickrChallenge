@@ -1,15 +1,18 @@
 //
-//  ViewController.h
+//  HomeTVC+ConfigureForPhoto.h
 //  flickrChallenge
 //
 //  Created by Jose Manuel Ramírez Martínez on 06/02/2017.
 //  Copyright © 2017 Jose Manuel Ramírez Martínez. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "HomeTVC.h"
 
-@interface ViewController : UITableViewController
 
+@class Photo;
+
+@interface HomeTVC (ConfigureForPhoto)
+
+- (void)configureForPhoto:(Photo *)photo;
 
 @end
-

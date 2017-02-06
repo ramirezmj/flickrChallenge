@@ -10,24 +10,60 @@
 		4A7AD7FF1E48DE2400C2249A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7AD7FE1E48DE2400C2249A /* main.m */; };
 		4A7AD8021E48DE2400C2249A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7AD8011E48DE2400C2249A /* AppDelegate.m */; };
 		4A7AD8051E48DE2400C2249A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7AD8041E48DE2400C2249A /* ViewController.m */; };
-		4A7AD8081E48DE2400C2249A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A7AD8061E48DE2400C2249A /* Main.storyboard */; };
 		4A7AD80B1E48DE2400C2249A /* flickrChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A7AD8091E48DE2400C2249A /* flickrChallenge.xcdatamodeld */; };
 		4A7AD80D1E48DE2400C2249A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A7AD80C1E48DE2400C2249A /* Assets.xcassets */; };
 		4A7AD8101E48DE2400C2249A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A7AD80E1E48DE2400C2249A /* LaunchScreen.storyboard */; };
+		4A7AD8191E48E05700C2249A /* NetworkProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7AD8181E48E05700C2249A /* NetworkProvider.m */; };
+		4A7AD81F1E48E83500C2249A /* FlickrAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7AD81E1E48E83500C2249A /* FlickrAPI.m */; };
+		4A7AD8281E48F4E300C2249A /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7AD8271E48F4E300C2249A /* Photo.m */; };
+		4A7AD82D1E48F59B00C2249A /* Pagination.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7AD82C1E48F59B00C2249A /* Pagination.m */; };
+		4A7AD8321E48FB0700C2249A /* ModelProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7AD8311E48FB0700C2249A /* ModelProvider.m */; };
+		4ACCF43C1E49061B003CBCD0 /* HomeTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACCF43A1E49061B003CBCD0 /* HomeTVC.m */; };
+		4ACCF43D1E49061B003CBCD0 /* HomeTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ACCF43B1E49061B003CBCD0 /* HomeTVC.xib */; };
+		4ACCF4401E4908EF003CBCD0 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ACCF43F1E4908EF003CBCD0 /* ViewController.xib */; };
+		4ACCF4451E490A65003CBCD0 /* ArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACCF4441E490A65003CBCD0 /* ArrayDataSource.m */; };
+		4ACCF4491E490BCD003CBCD0 /* HomeTVC+ConfigureForPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACCF4481E490BCD003CBCD0 /* HomeTVC+ConfigureForPhoto.m */; };
+		4ACCF44F1E492143003CBCD0 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACCF44D1E492143003CBCD0 /* DetailViewController.m */; };
+		4ACCF4501E492143003CBCD0 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ACCF44E1E492143003CBCD0 /* DetailViewController.xib */; };
+		D66B7186644F72B54B92FC67 /* libPods-flickrChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 801C7F713E8E1F381EA6D542 /* libPods-flickrChallenge.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36194364DC1DEA3B4F9A9E33 /* Pods-flickrChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flickrChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-flickrChallenge/Pods-flickrChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		4A7AD7FA1E48DE2400C2249A /* flickrChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flickrChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A7AD7FE1E48DE2400C2249A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4A7AD8001E48DE2400C2249A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4A7AD8011E48DE2400C2249A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4A7AD8031E48DE2400C2249A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4A7AD8041E48DE2400C2249A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4A7AD8071E48DE2400C2249A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A7AD80A1E48DE2400C2249A /* flickrChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = flickrChallenge.xcdatamodel; sourceTree = "<group>"; };
 		4A7AD80C1E48DE2400C2249A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A7AD80F1E48DE2400C2249A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A7AD8111E48DE2400C2249A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A7AD8171E48E05700C2249A /* NetworkProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkProvider.h; sourceTree = "<group>"; };
+		4A7AD8181E48E05700C2249A /* NetworkProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkProvider.m; sourceTree = "<group>"; };
+		4A7AD81D1E48E83500C2249A /* FlickrAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrAPI.h; sourceTree = "<group>"; };
+		4A7AD81E1E48E83500C2249A /* FlickrAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrAPI.m; sourceTree = "<group>"; };
+		4A7AD8261E48F4E300C2249A /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		4A7AD8271E48F4E300C2249A /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		4A7AD82B1E48F59B00C2249A /* Pagination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pagination.h; sourceTree = "<group>"; };
+		4A7AD82C1E48F59B00C2249A /* Pagination.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pagination.m; sourceTree = "<group>"; };
+		4A7AD8301E48FB0700C2249A /* ModelProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelProvider.h; path = ModelProvider/ModelProvider.h; sourceTree = "<group>"; };
+		4A7AD8311E48FB0700C2249A /* ModelProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModelProvider.m; path = ModelProvider/ModelProvider.m; sourceTree = "<group>"; };
+		4ACCF4391E49061B003CBCD0 /* HomeTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTVC.h; sourceTree = "<group>"; };
+		4ACCF43A1E49061B003CBCD0 /* HomeTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTVC.m; sourceTree = "<group>"; };
+		4ACCF43B1E49061B003CBCD0 /* HomeTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTVC.xib; sourceTree = "<group>"; };
+		4ACCF43F1E4908EF003CBCD0 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		4ACCF4431E490A65003CBCD0 /* ArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArrayDataSource.h; path = arrayDataSource/ArrayDataSource.h; sourceTree = "<group>"; };
+		4ACCF4441E490A65003CBCD0 /* ArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArrayDataSource.m; path = arrayDataSource/ArrayDataSource.m; sourceTree = "<group>"; };
+		4ACCF4471E490BCD003CBCD0 /* HomeTVC+ConfigureForPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "HomeTVC+ConfigureForPhoto.h"; path = "categories/HomeTVC+ConfigureForPhoto.h"; sourceTree = "<group>"; };
+		4ACCF4481E490BCD003CBCD0 /* HomeTVC+ConfigureForPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "HomeTVC+ConfigureForPhoto.m"; path = "categories/HomeTVC+ConfigureForPhoto.m"; sourceTree = "<group>"; };
+		4ACCF44B1E491934003CBCD0 /* SwitchButtonProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchButtonProtocol.h; sourceTree = "<group>"; };
+		4ACCF44C1E492143003CBCD0 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		4ACCF44D1E492143003CBCD0 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		4ACCF44E1E492143003CBCD0 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		801C7F713E8E1F381EA6D542 /* libPods-flickrChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-flickrChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94444978C3EC7192E2CDC681 /* Pods-flickrChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flickrChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-flickrChallenge/Pods-flickrChallenge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +71,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D66B7186644F72B54B92FC67 /* libPods-flickrChallenge.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03FB93B934717264C93D17E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				801C7F713E8E1F381EA6D542 /* libPods-flickrChallenge.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4A7AD7F11E48DE2300C2249A = {
 			isa = PBXGroup;
 			children = (
 				4A7AD7FC1E48DE2400C2249A /* flickrChallenge */,
 				4A7AD7FB1E48DE2400C2249A /* Products */,
+				A45B6F0C94F10CA73E761066 /* Pods */,
+				03FB93B934717264C93D17E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,15 +107,12 @@
 		4A7AD7FC1E48DE2400C2249A /* flickrChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				4A7AD8001E48DE2400C2249A /* AppDelegate.h */,
-				4A7AD8011E48DE2400C2249A /* AppDelegate.m */,
-				4A7AD8031E48DE2400C2249A /* ViewController.h */,
-				4A7AD8041E48DE2400C2249A /* ViewController.m */,
-				4A7AD8061E48DE2400C2249A /* Main.storyboard */,
-				4A7AD80C1E48DE2400C2249A /* Assets.xcassets */,
-				4A7AD80E1E48DE2400C2249A /* LaunchScreen.storyboard */,
-				4A7AD8111E48DE2400C2249A /* Info.plist */,
-				4A7AD8091E48DE2400C2249A /* flickrChallenge.xcdatamodeld */,
+				4A7AD8211E48F45E00C2249A /* main */,
+				4A7AD8201E48F43E00C2249A /* models */,
+				4A7AD8241E48F49000C2249A /* ui */,
+				4A7AD8231E48F48500C2249A /* resources */,
+				4A7AD8221E48F46F00C2249A /* networking */,
+				4A7AD82A1E48F58300C2249A /* helpers */,
 				4A7AD7FD1E48DE2400C2249A /* Supporting Files */,
 			);
 			path = flickrChallenge;
@@ -82,6 +126,167 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4A7AD81A1E48E06300C2249A /* NetworkProvider */ = {
+			isa = PBXGroup;
+			children = (
+				4A7AD8171E48E05700C2249A /* NetworkProvider.h */,
+				4A7AD8181E48E05700C2249A /* NetworkProvider.m */,
+			);
+			path = NetworkProvider;
+			sourceTree = "<group>";
+		};
+		4A7AD81C1E48E81000C2249A /* FlickrAPI */ = {
+			isa = PBXGroup;
+			children = (
+				4A7AD81D1E48E83500C2249A /* FlickrAPI.h */,
+				4A7AD81E1E48E83500C2249A /* FlickrAPI.m */,
+			);
+			path = FlickrAPI;
+			sourceTree = "<group>";
+		};
+		4A7AD8201E48F43E00C2249A /* models */ = {
+			isa = PBXGroup;
+			children = (
+				4A7AD82E1E48FAE000C2249A /* ModelProvider */,
+				4A7AD82F1E48FAEB00C2249A /* Photo */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		4A7AD8211E48F45E00C2249A /* main */ = {
+			isa = PBXGroup;
+			children = (
+				4A7AD8001E48DE2400C2249A /* AppDelegate.h */,
+				4A7AD8011E48DE2400C2249A /* AppDelegate.m */,
+				4A7AD8111E48DE2400C2249A /* Info.plist */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		4A7AD8221E48F46F00C2249A /* networking */ = {
+			isa = PBXGroup;
+			children = (
+				4A7AD81C1E48E81000C2249A /* FlickrAPI */,
+				4A7AD81A1E48E06300C2249A /* NetworkProvider */,
+			);
+			name = networking;
+			sourceTree = "<group>";
+		};
+		4A7AD8231E48F48500C2249A /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				4A7AD8091E48DE2400C2249A /* flickrChallenge.xcdatamodeld */,
+				4A7AD80C1E48DE2400C2249A /* Assets.xcassets */,
+				4A7AD80E1E48DE2400C2249A /* LaunchScreen.storyboard */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		4A7AD8241E48F49000C2249A /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				4ACCF44A1E4918F7003CBCD0 /* protocols */,
+				4A7AD8251E48F49A00C2249A /* controllers */,
+				4ACCF4381E4905D8003CBCD0 /* cells */,
+				4ACCF4461E490BAD003CBCD0 /* categories */,
+			);
+			name = ui;
+			sourceTree = "<group>";
+		};
+		4A7AD8251E48F49A00C2249A /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4A7AD8031E48DE2400C2249A /* ViewController.h */,
+				4A7AD8041E48DE2400C2249A /* ViewController.m */,
+				4ACCF43F1E4908EF003CBCD0 /* ViewController.xib */,
+				4ACCF44C1E492143003CBCD0 /* DetailViewController.h */,
+				4ACCF44D1E492143003CBCD0 /* DetailViewController.m */,
+				4ACCF44E1E492143003CBCD0 /* DetailViewController.xib */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		4A7AD82A1E48F58300C2249A /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4ACCF4421E490A2A003CBCD0 /* arrayDatasource */,
+				4ACCF4411E490A24003CBCD0 /* pagination */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		4A7AD82E1E48FAE000C2249A /* ModelProvider */ = {
+			isa = PBXGroup;
+			children = (
+				4A7AD8301E48FB0700C2249A /* ModelProvider.h */,
+				4A7AD8311E48FB0700C2249A /* ModelProvider.m */,
+			);
+			name = ModelProvider;
+			sourceTree = "<group>";
+		};
+		4A7AD82F1E48FAEB00C2249A /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				4A7AD8261E48F4E300C2249A /* Photo.h */,
+				4A7AD8271E48F4E300C2249A /* Photo.m */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
+		4ACCF4381E4905D8003CBCD0 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				4ACCF4391E49061B003CBCD0 /* HomeTVC.h */,
+				4ACCF43A1E49061B003CBCD0 /* HomeTVC.m */,
+				4ACCF43B1E49061B003CBCD0 /* HomeTVC.xib */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		4ACCF4411E490A24003CBCD0 /* pagination */ = {
+			isa = PBXGroup;
+			children = (
+				4A7AD82B1E48F59B00C2249A /* Pagination.h */,
+				4A7AD82C1E48F59B00C2249A /* Pagination.m */,
+			);
+			name = pagination;
+			sourceTree = "<group>";
+		};
+		4ACCF4421E490A2A003CBCD0 /* arrayDatasource */ = {
+			isa = PBXGroup;
+			children = (
+				4ACCF4431E490A65003CBCD0 /* ArrayDataSource.h */,
+				4ACCF4441E490A65003CBCD0 /* ArrayDataSource.m */,
+			);
+			name = arrayDatasource;
+			sourceTree = "<group>";
+		};
+		4ACCF4461E490BAD003CBCD0 /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				4ACCF4471E490BCD003CBCD0 /* HomeTVC+ConfigureForPhoto.h */,
+				4ACCF4481E490BCD003CBCD0 /* HomeTVC+ConfigureForPhoto.m */,
+			);
+			name = categories;
+			sourceTree = "<group>";
+		};
+		4ACCF44A1E4918F7003CBCD0 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4ACCF44B1E491934003CBCD0 /* SwitchButtonProtocol.h */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		A45B6F0C94F10CA73E761066 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36194364DC1DEA3B4F9A9E33 /* Pods-flickrChallenge.debug.xcconfig */,
+				94444978C3EC7192E2CDC681 /* Pods-flickrChallenge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,9 +294,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A7AD8141E48DE2400C2249A /* Build configuration list for PBXNativeTarget "flickrChallenge" */;
 			buildPhases = (
+				56EFA97CB6CF620CA997390B /* [CP] Check Pods Manifest.lock */,
 				4A7AD7F61E48DE2300C2249A /* Sources */,
 				4A7AD7F71E48DE2300C2249A /* Frameworks */,
 				4A7AD7F81E48DE2300C2249A /* Resources */,
+				351E60EB965E92D4D235BDEC /* [CP] Embed Pods Frameworks */,
+				E707AE7E92C9B616947D4CC7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -141,37 +349,88 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ACCF4401E4908EF003CBCD0 /* ViewController.xib in Resources */,
 				4A7AD8101E48DE2400C2249A /* LaunchScreen.storyboard in Resources */,
+				4ACCF4501E492143003CBCD0 /* DetailViewController.xib in Resources */,
 				4A7AD80D1E48DE2400C2249A /* Assets.xcassets in Resources */,
-				4A7AD8081E48DE2400C2249A /* Main.storyboard in Resources */,
+				4ACCF43D1E49061B003CBCD0 /* HomeTVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		351E60EB965E92D4D235BDEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-flickrChallenge/Pods-flickrChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56EFA97CB6CF620CA997390B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E707AE7E92C9B616947D4CC7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-flickrChallenge/Pods-flickrChallenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4A7AD7F61E48DE2300C2249A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A7AD8281E48F4E300C2249A /* Photo.m in Sources */,
+				4A7AD82D1E48F59B00C2249A /* Pagination.m in Sources */,
+				4ACCF43C1E49061B003CBCD0 /* HomeTVC.m in Sources */,
 				4A7AD8051E48DE2400C2249A /* ViewController.m in Sources */,
 				4A7AD8021E48DE2400C2249A /* AppDelegate.m in Sources */,
 				4A7AD80B1E48DE2400C2249A /* flickrChallenge.xcdatamodeld in Sources */,
+				4ACCF4491E490BCD003CBCD0 /* HomeTVC+ConfigureForPhoto.m in Sources */,
+				4A7AD81F1E48E83500C2249A /* FlickrAPI.m in Sources */,
+				4ACCF4451E490A65003CBCD0 /* ArrayDataSource.m in Sources */,
+				4ACCF44F1E492143003CBCD0 /* DetailViewController.m in Sources */,
 				4A7AD7FF1E48DE2400C2249A /* main.m in Sources */,
+				4A7AD8191E48E05700C2249A /* NetworkProvider.m in Sources */,
+				4A7AD8321E48FB0700C2249A /* ModelProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4A7AD8061E48DE2400C2249A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4A7AD8071E48DE2400C2249A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4A7AD80E1E48DE2400C2249A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -275,6 +534,7 @@
 		};
 		4A7AD8151E48DE2400C2249A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36194364DC1DEA3B4F9A9E33 /* Pods-flickrChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LM5274S9QL;
@@ -287,6 +547,7 @@
 		};
 		4A7AD8161E48DE2400C2249A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94444978C3EC7192E2CDC681 /* Pods-flickrChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LM5274S9QL;
@@ -316,6 +577,7 @@
 				4A7AD8161E48DE2400C2249A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
